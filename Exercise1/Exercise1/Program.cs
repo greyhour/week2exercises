@@ -17,7 +17,7 @@ namespace Exercise1
             {
                 Console.WriteLine("Would you like to create a CreditCard? (y/n):");
                 string input = Console.ReadLine();
-                switch (input)
+                switch (input.ToLower())
                 {
                     case "y":
                         Console.Clear();
